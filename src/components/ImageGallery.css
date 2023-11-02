@@ -1,0 +1,11 @@
+.grid-container {
+    color: black;
+}
+
+.grid-container:hover {
+    opacity: 60%;
+}
+
+.selected-image {
+    opacity: 0.6;
+}
