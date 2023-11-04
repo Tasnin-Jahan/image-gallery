@@ -42,7 +42,7 @@ const ImagesGallery = () => {
 
     return (
         <>
-            <div className='lg:w-[60%] md:w-[60%] sm:w-[100%] ' style={{ margin: '0 auto', textAlign: 'center' }}>
+            <div className='lg:w-[60%] md:w-[60%] sm:w-auto ' style={{ margin: '0 auto', textAlign: 'center' }}>
                 <div className="container relative">
                     <div className="lg:pt-20 lg:border-b lg:border-gray-300">
                         {!isAnyImageSelected && (
